@@ -1,0 +1,43 @@
+{
+ "passes_used": 13,
+ "budget": 25,
+ "exec_used": 33,
+ "max_exec": 300,
+ "finish_reason": "agent",
+ "finished_at": "2026-11-08T06:52:37.924+00:00",
+ "flags": {
+  "overlays": true,
+  "retention": true,
+  "recipe": true,
+  "hide_names": false
+ },
+ "retention": {
+  "metric": "coco_mask_map",
+  "n_images": 20,
+  "original": 63.1093,
+  "edited": 62.9775,
+  "difference": -0.1317,
+  "within_1_point": true
+ },
+ "recipe": {
+  "present": true,
+  "sha256": "dbf68d125139d16a1d432f29a5a665031902ccc7a556a9dd3e95adfec916ebef",
+  "seconds": 0.08,
+  "ok": true,
+  "reproduces": true,
+  "max_abs_diff": 0.0,
+  "tolerance": 1e-05,
+  "per_tensor": {
+   "class_rows.bias": 0.0,
+   "class_rows.weight": 0.0
+  },
+  "recipe_tensors": [
+   "class_rows.bias",
+   "class_rows.weight"
+  ],
+  "saved_tensors": [
+   "class_rows.bias",
+   "class_rows.weight"
+  ]
+ }
+}

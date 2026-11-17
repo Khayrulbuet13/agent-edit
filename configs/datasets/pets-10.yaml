@@ -1,0 +1,8 @@
+# 10 look-alike Oxford-IIIT Pet cat breeds, one cat per image
+name: pets-10
+manifest: derived        # manifest file: $AGENT_EDIT_DATA/manifests/<name>.json
+n_classes: 10
+shot_unit: image_per_class     # what N counts
+pmt_mask_source: pmt
+match: mask            # IoU on masks, or on the boxes around them
+eval_images: 120

@@ -1,0 +1,17 @@
+{
+ "project": "toy",
+ "budget": 25,
+ "max_exec": 300,
+ "run": "/RUN/x",
+ "describe_text": "Toy MLP: fc1.weight (16x4), fc1.bias (16), fc2.weight (3x16), fc2.bias (3). read options: n_images -> hidden (n,16), logits (n,3), matched_class (n,).\n\n",
+ "classes": [],
+ "task": "Toy task.",
+ "exec_timeout": 600.0,
+ "max_chars": 12345,
+ "max_images": 20,
+ "py": "PY",
+ "repo": "/REPO",
+ "n_shot": 1,
+ "gate_open": true,
+ "model_intro": "Custom intro."
+}

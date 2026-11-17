@@ -1,0 +1,8 @@
+# 10 look-alike CUB-200-2011 gulls and terns, one bird per image
+name: cub-10
+manifest: derived        # manifest file: $AGENT_EDIT_DATA/manifests/<name>.json
+n_classes: 10
+shot_unit: image_per_class     # what N counts
+pmt_mask_source: pmt
+match: box            # IoU on masks, or on the boxes around them
+eval_images: 120

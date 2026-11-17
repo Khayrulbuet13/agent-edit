@@ -1,0 +1,8 @@
+# 10 look-alike FGVC-Aircraft 737 and A319/A320 variants, one aircraft per image
+name: aircraft-10
+manifest: derived        # manifest file: $AGENT_EDIT_DATA/manifests/<name>.json
+n_classes: 10
+shot_unit: image_per_class     # what N counts
+pmt_mask_source: pmt
+match: box            # IoU on masks, or on the boxes around them
+eval_images: 120

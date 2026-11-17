@@ -1,0 +1,19 @@
+{
+ "project": "toy",
+ "budget": 7,
+ "max_exec": 11,
+ "run": "/RUN",
+ "describe_text": "Toy MLP: fc1.weight (16x4), fc1.bias (16), fc2.weight (3x16), fc2.bias (3). read options: n_images -> hidden (n,16), logits (n,3), matched_class (n,).",
+ "classes": [
+  "a",
+  "b",
+  "c"
+ ],
+ "task": "",
+ "exec_timeout": 900,
+ "max_chars": 10000,
+ "max_images": 256,
+ "py": "PY",
+ "repo": "/REPO",
+ "model_intro": "You are given the weights of a toy network, a 2-layer MLP that labels a 4-number point with one of its classes."
+}

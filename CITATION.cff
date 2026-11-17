@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "agent-edit"
+type: software
+abstract: "A coding agent adapts a frozen vision model to new classes from a few labeled images by editing its class head with code, without gradients."
+version: 0.1.0
+repository-code: "https://github.com/Khayrulbuet13/agent-edit"
+authors:
+  - name: "Khayrul Islam"
+license: MIT

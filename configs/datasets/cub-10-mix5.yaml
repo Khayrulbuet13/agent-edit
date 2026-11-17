@@ -1,0 +1,8 @@
+# 5 invented groups pairing up cub-10's 10 look-alike gull/tern classes, same images
+name: cub-10-mix5
+manifest: derived        # manifest file: $AGENT_EDIT_DATA/manifests/<name>.json
+n_classes: 5
+shot_unit: image_per_class     # what N counts; counts images per GROUP here
+pmt_mask_source: pmt
+match: box            # IoU on masks, or on the boxes around them
+eval_images: 120

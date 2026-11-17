@@ -1,0 +1,30 @@
+{
+ "edited": {
+  "class_rows.weight": {
+   "shape": [
+    11,
+    1024
+   ],
+   "changed": 10240,
+   "file": "class_rows.weight.pt"
+  },
+  "class_rows.bias": {
+   "shape": [
+    11
+   ],
+   "changed": 10,
+   "file": "class_rows.bias.pt"
+  }
+ },
+ "n_edited_tensors": 2,
+ "changed_weights": 10250,
+ "total_weights": 11275,
+ "fraction": 0.9090909090909091,
+ "final": true,
+ "passes_used": 13,
+ "budget": 25,
+ "exec_used": 33,
+ "max_exec": 300,
+ "finish_reason": "agent",
+ "finished_at": "2026-11-08T06:52:37.924+00:00"
+}

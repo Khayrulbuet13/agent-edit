@@ -1,0 +1,27 @@
+{
+ "flags": {
+  "overlays": true,
+  "retention": true,
+  "recipe": true,
+  "hide_names": false
+ },
+ "project": "cub-10",
+ "budget": 25,
+ "max_exec": 300,
+ "max_images": 50,
+ "pool_images": 50,
+ "exec_timeout": 900,
+ "started": "2026-11-08T06:43:36.921+00:00",
+ "backend": "agent_edit.backends.pmt.backend:make_backend",
+ "backend_args": {
+  "project": "cub-10",
+  "seed": "0",
+  "n_shot": "5"
+ },
+ "retention_original": {
+  "score": 63.109264118348385,
+  "metric": "coco_mask_map",
+  "n_images": 20,
+  "about": "COCO mask mAP (x100) on 20 fixed COCO val2017 images, for the model's original 80-class COCO head with your class rows added to it and its no-object row replaced by yours. It shows how much your rows take over objects the original model already finds."
+ }
+}
